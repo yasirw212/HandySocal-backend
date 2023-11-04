@@ -1,18 +1,27 @@
 {
-  "name": "handysocal",
+  "name": "handysocal-backend",
   "version": "1.0.0",
   "engines": {
-    "node": "16.7.0"
+    "node": "16.17.0"
   },
-  "description": "Application for a construction/handyman service based out of Southern California",
+  "description": "HandySocal website backend",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasirw212/HandySocal-backend.git"
   },
   "author": "Yasir Williams",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasirw212/HandySocal-backend/issues"
+  },
+  "homepage": "https://github.com/yasirw212/HandySocal-backend#readme",
   "dependencies": {
+    "node": "^21.1.0",
     "@emailjs/browser": "^3.11.0",
     "@supabase/supabase-js": "^2.37.0",
     "body-parser": "^1.20.2",
@@ -22,7 +31,6 @@
     "express": "^4.18.2",
     "moment": "^2.29.4",
     "morgan": "^1.10.0",
-    "node": "^20.9.0",
     "nodemon": "^3.0.1",
     "uuid": "^9.0.1"
   }
