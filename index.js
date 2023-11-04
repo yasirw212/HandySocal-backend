@@ -8,7 +8,7 @@ const servicesRouter = require('./routes/services')
 const inquiriesRouter = require('./routes/inquiries')
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://handy-socal-4b8bea3a3003.herokuapp.com/"],
+    
     methods: ["GET", "POST"]
 }))
 app.use(express.json())
