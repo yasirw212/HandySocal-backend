@@ -8,8 +8,8 @@ const servicesRouter = require('./routes/services')
 const inquiriesRouter = require('./routes/inquiries')
 
 app.use(cors({
-    
-    methods: ["GET", "POST"]
+    methods: ["GET", "POST"],
+    credentials: true
 }))
 app.use(express.json())
 
